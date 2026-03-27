@@ -55,5 +55,4 @@ print("n_dim", arr1.ndim)
 ```
 👉 Output:
 n_dim 2
-
 👉 this is 2D array (rows + columns)
