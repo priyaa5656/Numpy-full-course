@@ -1,5 +1,5 @@
-📘 Mathematical Operations on NumPy Array
-🧠 1. Why NumPy over List?
+# 📘 Mathematical Operations on NumPy Array
+##🧠 1. Why NumPy over List?
 👉 NumPy arrays are faster than Python lists because operations are performed in optimized C code internally.
 👉 NumPy arrays are also faster because they perform operations on the entire array at once (vectorization), while lists use loops.
 
