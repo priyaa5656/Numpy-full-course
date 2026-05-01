@@ -89,7 +89,7 @@ print(np.arange(2,10,2))
 
 
 🔹 7. Linspace
-👉 np.linspace() is a function that generates a fixed number of equally spaced values between a start and an end point.
+👉 np.linspace() is a function that generates a fixed number of equally spaced values between a start and an end valu(inclusive)..
 ```python
 print(np.linspace(1,10,4))
 ```

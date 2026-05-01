@@ -1,12 +1,12 @@
 # 📘 Broadcasting in NumPy
-👉 Broadcasting is a mechanism that allows operations on arrays of different shapes.
-👉 Matlab: bina loop ke arrays ko match karke operation ho jata hai 😎
+👉 Broadcasting is a mechanism that allows NumPy to perform element-wise operations on arrays of different shapes by automatically expanding the smaller array.
 
-🔹 Simple samajh
-👉 NumPy expand(stretch) array so that shapes match.
+🔹 Simple 
+👉 NumPy expands (stretches) arrays so that shapes match.
 
 ## 🔥 Broadcasting Rules 
-👉 1. compare shape from right
+👉 1. Compare shapes from right to left
+example:
 (2,3)
 (1,3)
 
@@ -52,10 +52,10 @@ d →
  [14 25 36]]
 
 ## 🔥 Important Concept (Gold Line ⭐)
-👉 Broadcasting allows operations between arrays of different shapes.
+👉 👉 Broadcasting = automatic expansion of smaller array
 
 ## 🎯 One-line Summary (Notes 🔥)
 
-👉 Broadcasting = different shape arrays ko match karke operation
-👉 1 → stretch hota hai
-👉 right se comparison hota hai
+👉 Broadcasting → Operation by matching different shape arrays
+👉 Smaller array → automatically stretches
+👉 Comparison → from right 
